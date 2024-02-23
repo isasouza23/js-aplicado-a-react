@@ -12,6 +12,15 @@
   
   
     //1ª Digitação (aqui) 
+    // Jeito antigo de usar variáveis
+    // var meuNome ='Isabelle';
+
+    // Jeito moderno de usar variáveis
+    // let meuNome ='Isabelle';
+  
+    // Se tiver certeza que nunca muda (usar constante)
+    const meuNome ='Isabelle';
+
 
 
     exibirNaTela(meuNome);
@@ -22,7 +31,14 @@
 
     //2ª Digitação (aqui) 
 
+    let idade = 16;
+    let mensagem;
 
+    if (idade === 18) {
+      mensagem ='É maior de idade';
+    } else {
+      mensagem ='É menor de idade';
+    }
 
     exibirNaTela(mensagem);
 
